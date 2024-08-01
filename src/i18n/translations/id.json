@@ -1,0 +1,17 @@
+{
+  "home": {
+    "bottomTab": "Beranda"
+  },
+  "search": {
+    "bottomTab": "Cari"
+  },
+  "saved": {
+    "bottomTab": "Tersimpan"
+  },
+  "cart": {
+    "bottomTab": "Keranjang"
+  },
+  "account": {
+    "bottomTab": "Akun"
+  }
+}

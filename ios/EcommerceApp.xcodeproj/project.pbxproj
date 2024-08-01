@@ -12,9 +12,23 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1CD89690CC7D49A489A9168D /* Figtree-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D52A3B824C64B2B896E382D /* Figtree-MediumItalic.ttf */; };
+		3917F03D44EF4A5FB26D68C9 /* Figtree-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDB4AC628260489693FF39A2 /* Figtree-BlackItalic.ttf */; };
+		597E9374C15244B68B7BEE13 /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B791BDC671F24188B0043EE5 /* Figtree-Regular.ttf */; };
+		65FB766C7F3D4A178EDEF4FC /* Figtree-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A22EDCBA15F4083846BA694 /* Figtree-SemiBoldItalic.ttf */; };
+		6E4C593A0E744235BBCA653C /* Figtree-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0AD286F81449ABB5B18D1D /* Figtree-ExtraBold.ttf */; };
+		6ECC7D8484744552920DD6A6 /* Figtree-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEF37A61D9E04E4C9B634703 /* Figtree-LightItalic.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-EcommerceApp-EcommerceAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceApp-EcommerceAppTests.a */; };
+		7AC4DC5F093F4593884F53D7 /* Figtree-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8700D87E534B451B97D567F6 /* Figtree-Black.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		841168F61CC9412EA03463C4 /* Figtree-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF239FF1C4CA4EC7AD70C921 /* Figtree-BoldItalic.ttf */; };
+		9F9DF4425C1E45849F48413C /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 229E2FB816B64CFAB0E91A18 /* Figtree-SemiBold.ttf */; };
+		AB2697E8EC62464580160D22 /* Figtree-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA500CA5142A45CEBBA80644 /* Figtree-ExtraBoldItalic.ttf */; };
 		D2B909796464503B271B9E42 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 72D982C728E371372E203480 /* PrivacyInfo.xcprivacy */; };
+		E9208D260F294963AB2AFA8D /* Figtree-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3C1D90386F4E85A1348B41 /* Figtree-Italic.ttf */; };
+		EE3BA16CDBC64C309E7F4D75 /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A2136D935984754B38B5E15 /* Figtree-Medium.ttf */; };
+		F6D00E4FC5C3438AAB99F512 /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F4CD2CCA2234F4AB4458CB5 /* Figtree-Bold.ttf */; };
+		FBDCD21B0E654D92BA77E9B8 /* Figtree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E694638097F34889AE02B402 /* Figtree-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +45,8 @@
 		00E356EE1AD99517003FC87E /* EcommerceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* EcommerceAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcommerceAppTests.m; sourceTree = "<group>"; };
+		0C0AD286F81449ABB5B18D1D /* Figtree-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-ExtraBold.ttf"; path = "../src/assets/fonts/Figtree-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0D52A3B824C64B2B896E382D /* Figtree-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-MediumItalic.ttf"; path = "../src/assets/fonts/Figtree-MediumItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* EcommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EcommerceApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = EcommerceApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,14 +55,26 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EcommerceApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = EcommerceApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceApp-EcommerceAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceApp-EcommerceAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2136D935984754B38B5E15 /* Figtree-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Medium.ttf"; path = "../src/assets/fonts/Figtree-Medium.ttf"; sourceTree = "<group>"; };
+		229E2FB816B64CFAB0E91A18 /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-SemiBold.ttf"; path = "../src/assets/fonts/Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-EcommerceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceApp.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceApp/Pods-EcommerceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3F4CD2CCA2234F4AB4458CB5 /* Figtree-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Bold.ttf"; path = "../src/assets/fonts/Figtree-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-EcommerceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceApp.release.xcconfig"; path = "Target Support Files/Pods-EcommerceApp/Pods-EcommerceApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A22EDCBA15F4083846BA694 /* Figtree-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Figtree-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-EcommerceApp-EcommerceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceApp-EcommerceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceApp-EcommerceAppTests/Pods-EcommerceApp-EcommerceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-EcommerceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D982C728E371372E203480 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = EcommerceApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EcommerceApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8700D87E534B451B97D567F6 /* Figtree-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Black.ttf"; path = "../src/assets/fonts/Figtree-Black.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-EcommerceApp-EcommerceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceApp-EcommerceAppTests.release.xcconfig"; path = "Target Support Files/Pods-EcommerceApp-EcommerceAppTests/Pods-EcommerceApp-EcommerceAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B791BDC671F24188B0043EE5 /* Figtree-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Regular.ttf"; path = "../src/assets/fonts/Figtree-Regular.ttf"; sourceTree = "<group>"; };
+		DEF37A61D9E04E4C9B634703 /* Figtree-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-LightItalic.ttf"; path = "../src/assets/fonts/Figtree-LightItalic.ttf"; sourceTree = "<group>"; };
+		E694638097F34889AE02B402 /* Figtree-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Light.ttf"; path = "../src/assets/fonts/Figtree-Light.ttf"; sourceTree = "<group>"; };
+		EA500CA5142A45CEBBA80644 /* Figtree-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Figtree-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FDB4AC628260489693FF39A2 /* Figtree-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-BlackItalic.ttf"; path = "../src/assets/fonts/Figtree-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FF239FF1C4CA4EC7AD70C921 /* Figtree-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-BoldItalic.ttf"; path = "../src/assets/fonts/Figtree-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FF3C1D90386F4E85A1348B41 /* Figtree-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Figtree-Italic.ttf"; path = "../src/assets/fonts/Figtree-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +139,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6481E9CEF9304DAB8084D42F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8700D87E534B451B97D567F6 /* Figtree-Black.ttf */,
+				FDB4AC628260489693FF39A2 /* Figtree-BlackItalic.ttf */,
+				3F4CD2CCA2234F4AB4458CB5 /* Figtree-Bold.ttf */,
+				FF239FF1C4CA4EC7AD70C921 /* Figtree-BoldItalic.ttf */,
+				0C0AD286F81449ABB5B18D1D /* Figtree-ExtraBold.ttf */,
+				EA500CA5142A45CEBBA80644 /* Figtree-ExtraBoldItalic.ttf */,
+				FF3C1D90386F4E85A1348B41 /* Figtree-Italic.ttf */,
+				E694638097F34889AE02B402 /* Figtree-Light.ttf */,
+				DEF37A61D9E04E4C9B634703 /* Figtree-LightItalic.ttf */,
+				1A2136D935984754B38B5E15 /* Figtree-Medium.ttf */,
+				0D52A3B824C64B2B896E382D /* Figtree-MediumItalic.ttf */,
+				B791BDC671F24188B0043EE5 /* Figtree-Regular.ttf */,
+				229E2FB816B64CFAB0E91A18 /* Figtree-SemiBold.ttf */,
+				5A22EDCBA15F4083846BA694 /* Figtree-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +177,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6481E9CEF9304DAB8084D42F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +300,20 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				D2B909796464503B271B9E42 /* PrivacyInfo.xcprivacy in Resources */,
+				7AC4DC5F093F4593884F53D7 /* Figtree-Black.ttf in Resources */,
+				3917F03D44EF4A5FB26D68C9 /* Figtree-BlackItalic.ttf in Resources */,
+				F6D00E4FC5C3438AAB99F512 /* Figtree-Bold.ttf in Resources */,
+				841168F61CC9412EA03463C4 /* Figtree-BoldItalic.ttf in Resources */,
+				6E4C593A0E744235BBCA653C /* Figtree-ExtraBold.ttf in Resources */,
+				AB2697E8EC62464580160D22 /* Figtree-ExtraBoldItalic.ttf in Resources */,
+				E9208D260F294963AB2AFA8D /* Figtree-Italic.ttf in Resources */,
+				FBDCD21B0E654D92BA77E9B8 /* Figtree-Light.ttf in Resources */,
+				6ECC7D8484744552920DD6A6 /* Figtree-LightItalic.ttf in Resources */,
+				EE3BA16CDBC64C309E7F4D75 /* Figtree-Medium.ttf in Resources */,
+				1CD89690CC7D49A489A9168D /* Figtree-MediumItalic.ttf in Resources */,
+				597E9374C15244B68B7BEE13 /* Figtree-Regular.ttf in Resources */,
+				9F9DF4425C1E45849F48413C /* Figtree-SemiBold.ttf in Resources */,
+				65FB766C7F3D4A178EDEF4FC /* Figtree-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

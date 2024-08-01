@@ -1,0 +1,17 @@
+{
+  "home": {
+    "bottomTab": "Home"
+  },
+  "search": {
+    "bottomTab": "Search"
+  },
+  "saved": {
+    "bottomTab": "Saved"
+  },
+  "cart": {
+    "bottomTab": "Cart"
+  },
+  "account": {
+    "bottomTab": "Account"
+  }
+}
