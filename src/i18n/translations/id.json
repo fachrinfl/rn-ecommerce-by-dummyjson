@@ -7,7 +7,10 @@
     "bottomTab": "Cari"
   },
   "saved": {
-    "bottomTab": "Tersimpan"
+    "bottomTab": "Disimpan",
+    "title": "Item Disimpan",
+    "emptyMessage": "Tidak Ada Item Disimpan!",
+    "description": "Anda tidak memiliki item yang disimpan. Pergi ke beranda dan tambahkan beberapa."
   },
   "cart": {
     "bottomTab": "Keranjang",

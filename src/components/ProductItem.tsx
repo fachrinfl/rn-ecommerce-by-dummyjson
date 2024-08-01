@@ -10,12 +10,16 @@ import {getPriceDetails} from '../utils/Helpers';
 import {useNavigation} from '@react-navigation/native';
 import {ProductNavigationProp} from '../navigations/navigation';
 import {SvgXml} from 'react-native-svg';
+import {useDispatch, useSelector} from 'react-redux';
+import {AppDispatch, RootState} from '../redux/store';
+import {addSaved, deleteSaved} from '../redux/savedSlice';
 
 type IProps = {
   item: Product;
+  isShowCategory?: boolean;
 };
 
-const ProductItem: React.FC<IProps> = ({item}) => {
+const ProductItem: React.FC<IProps> = ({item, isShowCategory = false}) => {
   const theme = useTheme() as unknown as Theme;
   const styles = createStyles(theme);
   const navigation = useNavigation<ProductNavigationProp>();
@@ -23,6 +27,11 @@ const ProductItem: React.FC<IProps> = ({item}) => {
     item.price,
     item.discountPercentage,
   );
+  const saved = useSelector((state: RootState) => state.saved);
+
+  const dispatch = useDispatch<AppDispatch>();
+
+  const isSaved = Boolean(saved.find(itemSaved => itemSaved.id === item.id));
 
   const onPressHandler = (): void => {
     navigation.navigate('ProductDetail', {
@@ -44,13 +53,22 @@ const ProductItem: React.FC<IProps> = ({item}) => {
           }}
           resizeMode={FastImage.resizeMode.contain}
         />
-        <View style={styles.saved}>
+        <TouchableOpacity
+          style={styles.saved}
+          activeOpacity={0.8}
+          onPress={() =>
+            dispatch(isSaved ? deleteSaved(item.sku) : addSaved(item))
+          }>
           <SvgXml
-            xml={Icon.heartLinear(theme.colors.errorText)}
+            xml={
+              isSaved
+                ? Icon.heartSolid(theme.colors.errorText)
+                : Icon.heartLinear(theme.colors.errorText)
+            }
             width={24}
             height={24}
           />
-        </View>
+        </TouchableOpacity>
       </View>
       <View style={styles.content}>
         <Text style={styles.title}>{item.title}</Text>
@@ -74,6 +92,13 @@ const ProductItem: React.FC<IProps> = ({item}) => {
             </Text>
           )}
         </View>
+        {isShowCategory && (
+          <View style={[styles.labelContainer, {marginTop: 10}]}>
+            <View style={styles.typeContainer}>
+              <Text style={styles.typeLabel}>{item.category}</Text>
+            </View>
+          </View>
+        )}
       </View>
     </TouchableOpacity>
   );

@@ -10,12 +10,9 @@ const Stack = createNativeStackNavigator<RootNavigatorParamList>();
 
 import MainScreen from './MainBottomTabNavigator';
 
-import {useTranslation} from 'react-i18next';
-
 const StackNavigator: React.FC = () => {
   const theme = useTheme() as unknown as Theme;
   const screenOptions = useNavigationScreenOptions();
-  const {t} = useTranslation();
 
   return (
     <>

@@ -131,8 +131,9 @@ const MainBottomTabNavigator = () => {
             name="SavedTab"
             component={SavedTabScreen}
             options={{
+              title: t('saved.title'),
               tabBarLabel: t('saved.bottomTab'),
-              headerShown: true,
+              headerShadowVisible: true,
               tabBarIcon: ({color, size, focused}) => (
                 <SvgXml
                   xml={
