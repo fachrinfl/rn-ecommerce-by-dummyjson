@@ -1,5 +1,11 @@
+import {NativeStackNavigationProp} from '@react-navigation/native-stack';
+import {RouteProp} from '@react-navigation/native';
+
 export type RootNavigatorParamList = {
   Main: NavigatorScreenParams<MainBottomTabNavigatorParamList> | undefined;
+  ProductDetail: {
+    productId: string;
+  };
 };
 
 export type MainBottomTabNavigatorParamList = {
@@ -9,3 +15,13 @@ export type MainBottomTabNavigatorParamList = {
   CartTab: undefined;
   AccountTab: undefined;
 };
+
+export type ProductNavigationProp = NativeStackNavigationProp<
+  RootNavigatorParamList,
+  'Product'
+>;
+
+export type ProductDetailRouteProp = RouteProp<
+  RootNavigatorParamList,
+  'ProductDetail'
+>;

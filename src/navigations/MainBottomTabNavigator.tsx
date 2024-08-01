@@ -20,7 +20,7 @@ import {AccountTabScreen} from '../features/account';
 const Tab = createBottomTabNavigator<MainBottomTabNavigatorParamList>();
 
 const MainBottomTabNavigator = () => {
-  const theme = useTheme() as Theme;
+  const theme = useTheme() as unknown as Theme;
   const {t} = useTranslation();
   const translateY = useRef(new Animated.Value(0)).current;
   const insets = useSafeAreaInsets();
@@ -57,7 +57,7 @@ const MainBottomTabNavigator = () => {
           screenOptions={{
             tabBarShowLabel: true,
             tabBarActiveTintColor: theme.colors.primary,
-            tabBarInactiveTintColor: theme.colors.tabInActive,
+            tabBarInactiveTintColor: theme.colors.tabBarIcon,
             tabBarLabelStyle: {
               fontSize: 12,
               fontFamily: Fonts.medium,
@@ -83,8 +83,16 @@ const MainBottomTabNavigator = () => {
             name="HomeTab"
             component={HomeTabScreen}
             options={{
+              title: t('appName'),
+              headerTitleStyle: {
+                fontSize: 24,
+                fontFamily: Fonts.bold,
+                textAlign: 'left',
+              },
+              headerTitleAlign: 'left',
               tabBarLabel: t('home.bottomTab'),
               headerShown: true,
+              headerShadowVisible: false,
               tabBarIcon: ({color, size, focused}) => (
                 <SvgXml
                   xml={

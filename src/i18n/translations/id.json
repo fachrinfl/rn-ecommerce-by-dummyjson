@@ -1,4 +1,5 @@
 {
+  "appName": "Ecommerce App",
   "home": {
     "bottomTab": "Beranda"
   },
@@ -9,7 +10,10 @@
     "bottomTab": "Tersimpan"
   },
   "cart": {
-    "bottomTab": "Keranjang"
+    "bottomTab": "Keranjang",
+    "title": "Keranjang Saya",
+    "emptyMessage": "Keranjang Anda Kosong!",
+    "description": "Ketika Anda menambahkan produk, mereka akan muncul di sini."
   },
   "account": {
     "bottomTab": "Akun"

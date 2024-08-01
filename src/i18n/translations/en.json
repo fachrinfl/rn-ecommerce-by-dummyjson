@@ -1,4 +1,5 @@
 {
+  "appName": "Ecommerce App",
   "home": {
     "bottomTab": "Home"
   },
@@ -9,7 +10,10 @@
     "bottomTab": "Saved"
   },
   "cart": {
-    "bottomTab": "Cart"
+    "bottomTab": "Cart",
+    "title": "My Cart",
+    "emptyMessage": "Your Cart Is Empty!",
+    "description": "When you add products, they’ll appear here."
   },
   "account": {
     "bottomTab": "Account"
