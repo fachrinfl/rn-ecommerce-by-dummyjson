@@ -45,6 +45,7 @@ export type Product = {
   reviews: Review[];
   returnPolicy: string;
   minimumOrderQuantity: number;
+  quantity?: number;
   meta: Meta;
   images: string[];
   thumbnail: string;

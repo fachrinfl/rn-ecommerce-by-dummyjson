@@ -34,7 +34,7 @@ const ProductItem: React.FC<IProps> = ({item, isShowCategory = false}) => {
   const isSaved = Boolean(saved.find(itemSaved => itemSaved.id === item.id));
 
   const onPressHandler = (): void => {
-    navigation.navigate('ProductDetail', {
+    navigation.push('ProductDetail', {
       productId: String(item.id),
     });
   };

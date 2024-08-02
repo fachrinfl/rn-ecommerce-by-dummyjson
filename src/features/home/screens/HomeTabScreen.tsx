@@ -2,7 +2,6 @@ import React from 'react';
 import {View, StyleSheet, ActivityIndicator} from 'react-native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import {useTheme} from '@react-navigation/native';
-import {useTranslation} from 'react-i18next';
 import {useCategories} from '../../../api/hooks/useCategories';
 import {Theme} from '../../../constants/types/theme';
 import {Fonts} from '../../../constants';
@@ -13,7 +12,6 @@ const Tab = createMaterialTopTabNavigator();
 const HomeTabScreen = () => {
   const theme = useTheme() as unknown as Theme;
   const {data, isLoading} = useCategories();
-  const {t} = useTranslation();
 
   if (isLoading) {
     return (

@@ -81,6 +81,6 @@ export const useProductById = (
   id: string,
 ): UseQueryResult<ProductByIdResponse, Error> =>
   useQuery({
-    queryKey: getQueryKey('productById'),
+    queryKey: getQueryKey('productById', {id}),
     queryFn: () => productByIdServices(id),
   });

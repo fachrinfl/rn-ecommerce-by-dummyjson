@@ -9,10 +9,13 @@ import {Theme} from '../constants/types/theme';
 const Stack = createNativeStackNavigator<RootNavigatorParamList>();
 
 import MainScreen from './MainBottomTabNavigator';
+import ProductDetailScreen from '../features/home/screens/ProductDetailScreen';
+import {useTranslation} from 'react-i18next';
 
 const StackNavigator: React.FC = () => {
   const theme = useTheme() as unknown as Theme;
   const screenOptions = useNavigationScreenOptions();
+  const {t} = useTranslation();
 
   return (
     <>
@@ -26,6 +29,14 @@ const StackNavigator: React.FC = () => {
           component={MainScreen}
           options={{
             headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="ProductDetail"
+          component={ProductDetailScreen}
+          options={{
+            title: t('home.productDetail'),
+            headerBackTitleVisible: false,
           }}
         />
       </Stack.Navigator>

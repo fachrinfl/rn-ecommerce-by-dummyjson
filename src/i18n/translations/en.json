@@ -1,7 +1,12 @@
 {
   "appName": "Ecommerce App",
   "home": {
-    "bottomTab": "Home"
+    "bottomTab": "Home",
+    "productDetail": "Product Detail",
+    "productDesc": "Product Description",
+    "reviews": "Reviews",
+    "addToCart": "Add To Cart",
+    "productRelated": "Product Related"
   },
   "search": {
     "bottomTab": "Search"

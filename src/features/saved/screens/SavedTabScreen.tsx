@@ -8,7 +8,7 @@ import {SvgXml} from 'react-native-svg';
 import {useTheme} from '@react-navigation/native';
 import {Theme} from '../../../constants/types/theme';
 import {Fonts, Icon} from '../../../constants';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 
 const SavedTabScreen: React.FC = () => {
   const theme = useTheme() as unknown as Theme;

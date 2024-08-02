@@ -91,11 +91,7 @@ const ProductScreen: React.FC<Props> = ({category}) => {
           />
         }
         renderItem={renderItem}
-        onEndReached={() => {
-          if (hasNextPage) {
-            fetchNextPage();
-          }
-        }}
+        onEndReached={() => hasNextPage && fetchNextPage()}
         onEndReachedThreshold={0.3}
         ListFooterComponent={footerLoading}
       />

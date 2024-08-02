@@ -1,7 +1,12 @@
 {
   "appName": "Ecommerce App",
   "home": {
-    "bottomTab": "Beranda"
+    "bottomTab": "Beranda",
+    "productDetail": "Detail Produk",
+    "productDesc": "Deskripsi Produk",
+    "reviews": "Ulasan",
+    "addToCart": "Tambahkan Ke Keranjang",
+    "productRelated": "Produk Terkait"
   },
   "search": {
     "bottomTab": "Cari"
