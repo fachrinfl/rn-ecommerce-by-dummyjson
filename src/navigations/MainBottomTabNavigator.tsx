@@ -115,8 +115,10 @@ const MainBottomTabNavigator = () => {
             name="SearchTab"
             component={SearchTabScreen}
             options={{
+              headerTitle: t('search.bottomTab'),
               tabBarLabel: t('search.bottomTab'),
               headerShown: true,
+              headerShadowVisible: false,
               tabBarIcon: ({color, size, focused}) => (
                 <SvgXml
                   xml={
@@ -176,7 +178,7 @@ const MainBottomTabNavigator = () => {
             component={AccountTabScreen}
             options={{
               tabBarLabel: t('account.bottomTab'),
-              headerShown: true,
+              headerShown: false,
               tabBarIcon: ({color, size, focused}) => (
                 <SvgXml
                   xml={

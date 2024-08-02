@@ -10,7 +10,8 @@
     "successAddToCart": "Berhasil menambahkan ke keranjang"
   },
   "search": {
-    "bottomTab": "Cari"
+    "bottomTab": "Cari",
+    "searchPlaceHolder": "Masukan pencarianmu..."
   },
   "saved": {
     "bottomTab": "Disimpan",
@@ -34,6 +35,14 @@
     "checkout": "Lanjut ke Pembayaran"
   },
   "account": {
-    "bottomTab": "Akun"
+    "bottomTab": "Akun",
+    "changeLanguage": "Ubah Bahasa",
+    "mode": "Mode",
+    "address": "Alamat",
+    "accountSecurity": "Keamanan Akun",
+    "notifications": "Notifikasi",
+    "terms&Conditions": "Syarat & Ketentuan",
+    "privacyPolicy": "Pemberitahuan Privasi",
+    "logout": "Keluar"
   }
 }

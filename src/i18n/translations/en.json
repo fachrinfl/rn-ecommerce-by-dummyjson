@@ -10,7 +10,8 @@
     "successAddToCart": "Successfully added to cart"
   },
   "search": {
-    "bottomTab": "Search"
+    "bottomTab": "Search",
+    "searchPlaceHolder": "Enter your search..."
   },
   "saved": {
     "bottomTab": "Saved",
@@ -34,6 +35,14 @@
     "checkout": "Go To Checkout"
   },
   "account": {
-    "bottomTab": "Account"
+    "bottomTab": "Account",
+    "changeLanguage": "Change Language",
+    "mode": "Mode",
+    "address": "Address",
+    "accountSecurity": "Account Security",
+    "notifications": "Notifications",
+    "terms&Conditions": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "logout": "Logout"
   }
 }

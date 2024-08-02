@@ -13,6 +13,7 @@ import {ConfigInfiniteQuery, getQueryKey} from '../types/query';
 import {
   productByCategoryServices,
   productByIdServices,
+  productSearchServices,
   productServices,
 } from '../services/ProductServices';
 
@@ -25,6 +26,35 @@ export const useProducts = (
     queryKey: getQueryKey('products', params),
     queryFn: ({pageParam}) =>
       productServices({
+        ...params,
+        skip: params.limit * (pageParam - 1),
+      }),
+    initialPageParam: 1,
+    getNextPageParam: (lastPage, AllPages) => {
+      const totalPage = Math.ceil(lastPage.total / params.limit);
+      const currentPage = AllPages.length;
+      const morePageExist = currentPage < totalPage;
+      if (!morePageExist) {
+        return undefined;
+      }
+
+      return AllPages.length + 1;
+    },
+    select: data => ({
+      ...data,
+      pages: data.pages.flatMap(page => page.products),
+    }),
+  });
+
+export const useProductsSearch = (
+  params: ProductParams,
+  config?: ConfigInfiniteQuery<ProductResponse, Product>,
+) =>
+  useInfiniteQuery({
+    ...config,
+    queryKey: getQueryKey('products', params),
+    queryFn: ({pageParam}) =>
+      productSearchServices({
         ...params,
         skip: params.limit * (pageParam - 1),
       }),

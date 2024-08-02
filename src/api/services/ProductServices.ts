@@ -19,6 +19,20 @@ export const productServices = async (
   }
 };
 
+export const productSearchServices = async (
+  params: ProductParams,
+): Promise<ProductResponse> => {
+  try {
+    const response: ProductResponse = await ApiClient.get('/products/search', {
+      params,
+    });
+
+    return response;
+  } catch (error) {
+    throw error;
+  }
+};
+
 export const productByCategoryServices = async (
   category: string,
   params: ProductParams,

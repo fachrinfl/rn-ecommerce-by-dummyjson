@@ -17,8 +17,8 @@ import {calculateTotal} from '../../../utils/Helpers';
 const CartTabScreen: React.FC = () => {
   const theme = useTheme() as unknown as Theme;
   const styles = createStyles(theme);
-  const cart = useSelector((state: RootState) => state.cart);
   const {t} = useTranslation();
+  const cart = useSelector((state: RootState) => state.cart);
 
   const renderItem = useCallback(
     ({item}: {item: Product}) => <CartItem item={item} />,
@@ -58,11 +58,9 @@ const CartTabScreen: React.FC = () => {
             <View>
               <View style={styles.footerContainer}>
                 <Text style={styles.desc}>Total</Text>
-                <Text
-                  style={[
-                    styles.title,
-                    {marginBottom: 0, marginTop: 0},
-                  ]}>{`${calculateTotal(cart)}`}</Text>
+                <Text style={[styles.title, {marginBottom: 0, marginTop: 0}]}>
+                  ${`${calculateTotal(cart)}`}
+                </Text>
               </View>
               <TouchableOpacity
                 style={styles.btnCheckout}
