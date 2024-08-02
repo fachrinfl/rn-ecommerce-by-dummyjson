@@ -55,6 +55,10 @@ const MainBottomTabNavigator = () => {
       <Animated.View style={{flex: 1}}>
         <Tab.Navigator
           screenOptions={{
+            headerTitleStyle: {
+              fontFamily: Fonts.bold,
+              color: theme.colors.text,
+            },
             tabBarShowLabel: true,
             tabBarActiveTintColor: theme.colors.primary,
             tabBarInactiveTintColor: theme.colors.tabBarIcon,
@@ -150,6 +154,7 @@ const MainBottomTabNavigator = () => {
             name="CartTab"
             component={CartTabScreen}
             options={{
+              title: t('cart.title'),
               tabBarLabel: t('cart.bottomTab'),
               headerShown: true,
               tabBarIcon: ({color, size, focused}) => (

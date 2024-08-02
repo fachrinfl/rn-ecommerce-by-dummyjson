@@ -31,6 +31,7 @@ import {addSaved, deleteSaved} from '../../../redux/savedSlice';
 import {addCart} from '../../../redux/cartSlice';
 import {Product} from '../../../api/types/product';
 import {configs} from '../../../constants/configs';
+import Toast from 'react-native-simple-toast';
 
 const {width} = Dimensions.get('screen');
 
@@ -197,7 +198,10 @@ const ProductDetail: React.FC = () => {
           <TouchableOpacity
             style={styles.btnAddToCart}
             activeOpacity={0.8}
-            onPress={() => dispatch(addCart(data as Product))}>
+            onPress={() => {
+              dispatch(addCart(data as Product));
+              Toast.show(t('home.successAddToCart'), Toast.SHORT);
+            }}>
             <SvgXml
               xml={Icon.cartShoppingLinear(theme.colors.background)}
               width={24}

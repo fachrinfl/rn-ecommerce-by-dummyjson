@@ -6,7 +6,8 @@
     "productDesc": "Product Description",
     "reviews": "Reviews",
     "addToCart": "Add To Cart",
-    "productRelated": "Product Related"
+    "productRelated": "Product Related",
+    "successAddToCart": "Successfully added to cart"
   },
   "search": {
     "bottomTab": "Search"
@@ -21,7 +22,16 @@
     "bottomTab": "Cart",
     "title": "My Cart",
     "emptyMessage": "Your Cart Is Empty!",
-    "description": "When you add products, they’ll appear here."
+    "description": "When you add products, they’ll appear here.",
+    "removeItem": {
+        "title": "Remove Item Confirmation",
+        "desc": "Are you sure you want to remove this item from the cart?",
+        "action": {
+          "yes": "Yes",
+          "no": "No"
+        }
+    },
+    "checkout": "Go To Checkout"
   },
   "account": {
     "bottomTab": "Account"

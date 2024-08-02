@@ -1,3 +1,5 @@
+import {Product} from '../api/types/product';
+
 type PriceDetails = {
   originalPrice: number;
   discountedPrice: number;
@@ -18,4 +20,18 @@ export const getPriceDetails = (
     discountedPrice: discountedPrice,
     hasDiscount: hasDiscount,
   };
+};
+
+export const calculateTotal = (items: Product[]): string => {
+  let total: number = 0;
+
+  items.forEach(item => {
+    let discountedPrice = item.price;
+    if (item.discountPercentage) {
+      discountedPrice = item.price * (1 - item.discountPercentage / 100);
+    }
+    total += (item.quantity ?? 0) * discountedPrice;
+  });
+
+  return total.toFixed(2) as string;
 };

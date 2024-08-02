@@ -6,7 +6,8 @@
     "productDesc": "Deskripsi Produk",
     "reviews": "Ulasan",
     "addToCart": "Tambahkan Ke Keranjang",
-    "productRelated": "Produk Terkait"
+    "productRelated": "Produk Terkait",
+    "successAddToCart": "Berhasil menambahkan ke keranjang"
   },
   "search": {
     "bottomTab": "Cari"
@@ -21,7 +22,16 @@
     "bottomTab": "Keranjang",
     "title": "Keranjang Saya",
     "emptyMessage": "Keranjang Anda Kosong!",
-    "description": "Ketika Anda menambahkan produk, mereka akan muncul di sini."
+    "description": "Ketika Anda menambahkan produk, mereka akan muncul di sini.",
+    "removeItem": {
+        "title": "Konfirmasi Penghapusan Item",
+        "desc": "Apakah Anda yakin ingin menghapus item ini dari keranjang?",
+        "action": {
+          "yes": "Ya",
+          "no": "Tidak"
+        }
+    },
+    "checkout": "Lanjut ke Pembayaran"
   },
   "account": {
     "bottomTab": "Akun"

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, {useCallback} from 'react';
 import {View, StyleSheet, FlatList, Text} from 'react-native';
 import {useSelector} from 'react-redux';
